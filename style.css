@@ -32,6 +32,10 @@ h5 a{
     
 }
 
+.card-img-top{
+    width: 80%;
+}
+
 #smartphone {
     margin-bottom: 60px;
 }
