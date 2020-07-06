@@ -1,5 +1,6 @@
 body{
     margin: 0;
+ 
 }
 
 .logo{
@@ -29,6 +30,8 @@ h5 a{
 
 .card{
     border: none;
+    box-shadow: 10px 10px 8px whitesmoke;
+    border-radius: 12px;
     
 }
 
@@ -38,9 +41,11 @@ h5 a{
 
 #smartphone {
     margin-bottom: 60px;
+    padding-top: 50px;
 }
 #laptop{
     margin-top: 60px;
+    padding-top: 60px;
 }
 .category{
     margin-top: 80px;
@@ -48,6 +53,14 @@ h5 a{
 }
 .cat{
     margin-top: 60px;
+}
+
+.left-img, .img-right-1, .img-right-2{
+    text-align: center;
+    box-shadow: 10px 10px 8px whitesmoke;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
 }
 
 .fooo{
