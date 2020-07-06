@@ -41,9 +41,11 @@ h5 a{
 
 #smartphone {
     margin-bottom: 60px;
+    padding-top: 50px;
 }
 #laptop{
     margin-top: 60px;
+    padding-top: 60px;
 }
 .category{
     margin-top: 80px;
