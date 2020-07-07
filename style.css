@@ -2,6 +2,32 @@ body{
     margin: 0;
  
 }
+ol.carousel-indicators{
+   
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 42%;
+   
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  float: left;
+  width: 33%;
+  height: 12px;
+  margin: 1px;
+  border-radius: 12px;
+  border: 0;
+  background-color: #FB9925;
+ 
+}
+
+ol.carousel-indicators li.active {
+    background : #f78904;
+  }
+
+
 
 .logo{
     height: 40px;
@@ -17,12 +43,7 @@ body{
 	color: white;
 }
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
+
 
 h5 a{
     color: #FB9925;
